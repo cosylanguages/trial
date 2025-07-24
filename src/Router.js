@@ -1,7 +1,7 @@
 // This component will define the routes for the different modes of the application.
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Freestyle from './Freestyle';
 import StudyMode from './StudyMode';
 import Community from './Community';
@@ -23,6 +23,8 @@ function AppRouter() {
         </ul>
       </nav>
       <Routes>
+        {/* This is the default route that redirects to the freestyle page. */}
+        <Route path="/" element={<Navigate to="/freestyle" />} />
         <Route path="/freestyle" element={<Freestyle />} />
         <Route path="/study" element={<StudyMode />} />
         <Route path="/community" element={<Community />} />
