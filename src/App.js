@@ -6,7 +6,7 @@ import AppRouter from './Router';
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <h1>COSYlanguages</h1>
       <AppRouter />
     </div>

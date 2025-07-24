@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Greetings",
+    "words": [
+      {
+        "id": 1,
+        "word": "Hello",
+        "translation": "Hola",
+        "example": "Hello, how are you?"
+      },
+      {
+        "id": 2,
+        "word": "Goodbye",
+        "translation": "Adiós",
+        "example": "Goodbye, see you tomorrow."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Food",
+    "words": [
+      {
+        "id": 3,
+        "word": "Apple",
+        "translation": "Manzana",
+        "example": "I am eating an apple."
+      },
+      {
+        "id": 4,
+        "word": "Banana",
+        "translation": "Plátano",
+        "example": "I like bananas."
+      }
+    ]
+  }
+]
