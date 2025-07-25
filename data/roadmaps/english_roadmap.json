@@ -1,0 +1,35 @@
+{
+  "language": "English",
+  "levels": [
+    {
+      "level": "A1",
+      "title": "Beginner",
+      "description": "Basic phrases and vocabulary.",
+      "lessons": [
+        {
+          "title": "Greetings",
+          "slug": "greetings"
+        },
+        {
+          "title": "Numbers",
+          "slug": "numbers"
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "title": "Elementary",
+      "description": "Simple sentences and common expressions.",
+      "lessons": [
+        {
+          "title": "Ordering food",
+          "slug": "ordering-food"
+        },
+        {
+          "title": "Asking for directions",
+          "slug": "asking-for-directions"
+        }
+      ]
+    }
+  ]
+}

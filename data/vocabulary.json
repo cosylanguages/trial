@@ -1,0 +1,22 @@
+{
+  "english": [
+    {
+      "word": "hello",
+      "translation": "你好"
+    },
+    {
+      "word": "goodbye",
+      "translation": "再见"
+    }
+  ],
+  "french": [
+    {
+      "word": "bonjour",
+      "translation": "你好"
+    },
+    {
+      "word": "au revoir",
+      "translation": "再见"
+    }
+  ]
+}
